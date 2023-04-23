@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example</groupId>
-  <artifactId>hellodocker</artifactId>
+  <groupId>demodocker</groupId>
+  <artifactId>maven-docker</artifactId>
   <version>1.1</version>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -169,8 +169,5 @@
         <version>${maven-javadoc-plugin.version}</version>
       </plugin>
     </plugins>
-    <build>
-  <finalName>hellodocker-1.1</finalName>
-</build>
   </reporting>
 </project>
